@@ -1,0 +1,27 @@
+<div class="dv-main">
+    <div class="dv-table">
+    <table id="tb-custom">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Sobrenome</th>
+                <th scope="col">E-mail</th>
+                <th scope="col" class="opt-col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let funci of funcionarios">
+                <td scope="row">{{funci.id}}</td>
+                <td scope="row">{{funci.nome}}</td>
+                <td scope="row">{{funci.sobrenome}}</td>
+                <td scope="row">{{funci.email}}</td>
+                <td scope="row" class="opt-row"> 
+                    <app-botao botaoEstilo="edit" (botaoClick)="editarFuncionario(funci.id)"></app-botao>
+                    <app-botao botaoEstilo="delete" (botaoClick)="excluirFuncionario(funci.id, funci.nome)"></app-botao> 
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>

@@ -1,0 +1,19 @@
+<div class="dv">
+  <div
+    (click)="onClick()"
+    class="dv-main-bt"
+    [ngClass]="
+      botaoEstilo === 'delete'
+        ? 'bt-red'
+        : botaoEstilo === 'save'
+        ? 'bt-green'
+        : botaoEstilo === 'edit'
+        ? 'bt-orange'
+        : botaoEstilo === 'clear'
+        ? 'bt-blue'
+        : ''
+    "
+  >
+    <label class="lb-bt">{{ botaoLabel }}</label>
+  </div>
+</div>

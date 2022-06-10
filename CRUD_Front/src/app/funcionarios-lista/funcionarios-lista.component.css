@@ -1,0 +1,46 @@
+#tb-custom {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: arial, sans-serif;
+}
+
+#tb-custom td,
+#tb-custom th {
+  border: 1px solid #1074a721;
+  padding: 8px;
+}
+
+#tb-custom tr:nth-child(even) {
+  background-color: #dde1ffb0;
+}
+
+#tb-custom tr:hover {
+  background-color: rgba(69, 88, 228, 0.591);
+}
+
+#tb-custom th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0f62b5;
+  color: white;
+}
+
+.dv-main {
+  margin-top: 135px;
+  display: flex;
+  justify-content: center;
+}
+
+.dv-table {
+  width: 90%;
+}
+
+.opt-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.opt-col {
+  width: 200px;
+}

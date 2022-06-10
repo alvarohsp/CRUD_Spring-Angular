@@ -1,0 +1,57 @@
+.dv-main-bt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  min-width: 65px;
+  max-width: 135px;
+
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.dv-main-bt:hover {
+  background-color: rgb(255, 255, 255);
+  transition: 0.2s;
+}
+
+.bt-red {
+  background-color: rgb(228, 16, 16);
+}
+
+.bt-red:hover {
+  color: rgb(228, 16, 16);
+}
+
+.bt-orange {
+  background-color: rgb(240, 130, 20);
+}
+
+.bt-orange:hover {
+  color: rgb(240, 130, 20);
+}
+
+.bt-green {
+  background-color: rgb(16, 141, 51);
+}
+
+.bt-green:hover {
+  color: rgb(16, 141, 51);
+}
+
+.bt-blue {
+  background-color: rgb(60, 47, 206);
+}
+
+.bt-blue:hover {
+  color: rgb(60, 47, 206);
+}
+
+.lb-bt {
+  margin-left: 10px;
+  margin-right: 10px;
+  user-select: none;
+  cursor: pointer;
+}

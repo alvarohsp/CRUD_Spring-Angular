@@ -1,0 +1,54 @@
+.dv-main {
+  margin-top: 135px;
+  display: flex;
+  justify-content: center;
+}
+
+.dv-box {
+  width: 480px;
+  border: 7px solid #1976d2;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.dv-lb {
+  font-size: 17px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.input-c {
+  width: 345px;
+  height: 20px;
+  font-size: 18px;
+}
+
+.input-inside {
+  margin-top: 2px;
+  margin-bottom: 15px;
+}
+
+.dv-input {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  max-height: 300px;
+}
+
+#input-nome {
+  margin-left: 43px;
+}
+
+#input-email {
+  margin-left: 40px;
+}
+
+.dv-btn {
+  margin-left: 30px;
+  height: 40px;
+  width: 415px;
+  display: inline-flex;
+  justify-content: space-around;
+}

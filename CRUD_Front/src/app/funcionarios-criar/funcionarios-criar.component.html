@@ -1,0 +1,52 @@
+<div class="dv-main">
+  <div class="dv-box">
+    <div class="dv-lb">
+      <label
+        >{{
+          estadoEdicao ? "Altere um" : "Adicione um novo"
+        }}
+        funcionário</label
+      >
+    </div>
+    <div class="dv-input">
+      <div class="input-inside">
+        <label for="input-nome">Nome: </label>
+        <input
+          class="input-c"
+          id="input-nome"
+          type="text"
+          [(ngModel)]="funcionario.nome"
+          placeholder="Digite o nome do funcionário"
+        />
+      </div>
+      <div class="input-inside">
+        <label for="input-sobrenome">Sobrenome: </label>
+        <input
+          class="input-c"
+          id="input-sobrenome"
+          type="text"
+          [(ngModel)]="funcionario.sobrenome"
+          placeholder="Digite o sobrenome do funcionário"
+        />
+      </div>
+      <div class="input-inside">
+        <label for="input-email">E-mail: </label>
+        <input
+          class="input-c"
+          id="input-email"
+          type="text"
+          [(ngModel)]="funcionario.email"
+          placeholder="Digite o E-mail do funcionário"
+        />
+      </div>
+    </div>
+    <div class="dv-btn">
+      <app-botao
+        style="margin-right: 40px"
+        botaoEstilo="save"
+        (botaoClick)="salvarFuncionario()"
+      ></app-botao>
+      <app-botao botaoEstilo="clear" (botaoClick)="limpar()"></app-botao>
+    </div>
+  </div>
+</div>
